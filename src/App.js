@@ -19,6 +19,11 @@ import Form from './components/Form'
 import LifecycleA from "./components/LifecycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Tables from "./components/Tables";
+import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+import Input from "./components/Input";
+import FocusInput from "./components/FocusInput";
+import FRParentInput from "./components/FRParentInput";
 
 
 function App() {
@@ -45,7 +50,7 @@ function App() {
 			{/* <EventBind/> */}
 			{/* <ParentComponent/> */}
 			{/* <UserGreeting/> */}
-			<NameList/>
+			{/* <NameList/> */}
 			{/* <Stylesheets primary={false}/> */}
 			{/* <Inline/> */}
 			{/* <h1 className='error'>Error</h1>
@@ -54,6 +59,11 @@ function App() {
 			{/* <LifecycleA/> */}
 			{/* <FragmentDemo/> */}
 			{/* <Tables/> */}
+			{/* <ParentComp/> */}
+			{/* <RefsDemo/> */}
+			{/* <Input/> */}
+			{/* <FocusInput/> */}
+			<FRParentInput/>
 		</div>
 	);
 }
